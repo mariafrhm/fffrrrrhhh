@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+header{
+    background: rgb(29, 104, 6);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 25px 50px;
+    
+}
+button{
+    margin-left: 50px;
+    font-family: Tahoma;
+    padding: 10xp 20xp;
+    border-radius: 30xp;
+    background: rgba(207, 22, 22, 0.63);
+    color: aliceblue;
+    /*border: none;*/
+}
+button:hover{
+    background: slateblue;
+    color: antiquewhite;
+    cursor: pointer;
+}
+nav a{
+    margin-left: 25px;
+    color: rgb(234, 240, 182);
+    font-family: Tahoma;
+    text-decoration: none;
+
+}
+section{
+    padding: 150px 50px;
+    background-image: url(dfg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+h1{
+    font-size: 70px;
+    color: rgb(241, 232, 227);
+    font-family: 'Yeseva One', cursive;
+
+}
+section p{
+    color: antiquewhite;
+    max-width: 50%;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: Tahoma;
+}
+footer{
+    background:#000;
+    color:#fff;
+    padding: 30px 50px;
+}
